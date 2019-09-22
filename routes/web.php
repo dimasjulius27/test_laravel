@@ -21,3 +21,8 @@ Route::get('home', function () {
 });
 
 Route::get('pegawai', 'pegawaiController@index');
+
+Route::get('biodata/{nama}', 'biodataController@index');
+
+Route::get('form', 'biodataController@form');
+Route::post('form/proses', 'biodataController@prosesnya');
