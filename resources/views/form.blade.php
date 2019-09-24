@@ -6,6 +6,7 @@
 <body>
 	<h1>Masukan isian dibawah ini</h1>
 	<br />
+	<div>perubahan</div>
 	<form action="/form/proses" method="post">
 		<input type="hidden" name="_token" value="<?php echo csrf_token() ?>">
 
