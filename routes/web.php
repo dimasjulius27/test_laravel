@@ -26,3 +26,7 @@ Route::get('biodata/{nama}', 'biodataController@index');
 
 Route::get('form', 'biodataController@form');
 Route::post('form/proses', 'biodataController@prosesnya');
+
+Route::get('blog', 'blogController@index');
+Route::get('blog/tentang', 'blogController@tentang');
+
