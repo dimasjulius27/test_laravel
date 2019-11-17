@@ -29,4 +29,5 @@ Route::post('form/proses', 'biodataController@prosesnya');
 
 Route::get('blog', 'blogController@index');
 Route::get('blog/tentang', 'blogController@tentang');
+Route::get('blog/kontak', 'blogController@contact');
 

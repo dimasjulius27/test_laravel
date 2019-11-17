@@ -14,4 +14,9 @@ class blogController extends Controller
     public function tentang(){
     	return view('tentang');
     }
+
+    public function contact(){
+    	// return "kontak";
+    	return view('contact');
+    }
 }
